@@ -1,0 +1,101 @@
+version: "2.0"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_feel_sick
+  - intent: affirm
+  - action: utter_Prevention
+
+
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_feel_sick
+  - intent: deny
+  - action: utter_happy
+
+- story: bot path 
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
+
+- story: help path 
+  steps:
+  - intent: bot_help
+  - action: utter_bot_help
+
+
+- story: corona intro path 
+  steps:
+  - intent: corona_intro
+  - action: utter_corona_intro
+
+
+- story: corona spread path 
+  steps:
+  - intent: corona_spread
+  - action: utter_corona_spread
+
+
+- story: corona food spread path 
+  steps:
+  - intent: corona_food_spread
+  - action: utter_corona_food_spread
+
+
+- story: animal spread path 
+  steps:
+  - intent: animal_spread
+  - action: utter_animal_spread
+
+- story: Prevention path 
+  steps:
+  - intent: Prevention
+  - action: utter_Prevention
+
+- story: corona infected path 
+  steps:
+  - intent: corona_infected
+  - action: utter_corona_infected
+
+
+- story: corona symptoms path 
+  steps:
+  - intent: corona_symptoms
+  - action: utter_corona_symptoms
+
+
+- story: mask mandatory path 
+  steps:
+  - intent: mask_mandatory
+  - action: utter_mask_mandatory
+
+- story: weather path 
+  steps:
+  - intent: weather
+  - action: utter_weather
+
+- story: high risk path 
+  steps:
+  - intent: high_risk
+  - action: utter_high_risk
+
+- story : corona state path
+  steps:
+  - intent: corona_state
+  - action: action_corona_state

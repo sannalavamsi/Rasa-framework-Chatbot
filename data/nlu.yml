@@ -1,0 +1,236 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hii
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am good
+    - I am fine
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - not feeling well
+    - feeling sick
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: bot_help
+  examples: |
+    - help
+    - what help can you do to me
+    - need help
+    - help me
+
+
+- intent: corona_intro
+  examples: |
+    - What is corona virus
+    - What is novel corona virus
+    - what is covid
+    - what is a novel corona virus
+    - what is covid-19
+    - tell me about corona
+    - can you tell me about covid
+    
+
+- intent: corona_spread
+  examples: |
+    - how does corona virus spread
+    - how does the virus spread
+
+- intent: corona_food_spread
+  examples: |
+    - Does corona spread from food
+    - how will corona spread from food
+
+- intent: animal_spread
+  examples: |
+    - can mosquitoes spread corona
+    - will corona spread through mosquitoes
+    - can i get covid from my pet animals
+    - can animals spread virus
+
+
+- intent: Prevention
+  examples: |
+    - how can I protect myself
+    - how to protect from corona virus
+    - prevention methods
+    - what kind of food is better to take 
+    - protein food
+    - Precautions
+    - tips 
+    - tips for prevention
+    - tips of covid
+
+- intent: corona_infected
+  examples: |
+    - what should i do if i get corona
+    - what should i do if have had contact to covid effected person
+    - i am effected with corona
+    - corona positive
+
+- intent: corona_symptoms
+  examples: |
+    - corona symptoms
+    - what are the symptoms of Covid-19
+    - what are the symptoms of Covid
+    - virus symptoms
+
+
+- intent: mask_mandatory
+  examples: |
+    - is mask mandatory
+    - should everyone wear
+    - Are masks now required on public transit?
+    - Who is exempt from wearing a face mask?
+    - Are masks required in churches/places of worship?
+    - What kind of masks are acceptable?
+
+- intent: weather
+  examples: |
+    - will warm weather stop the spread
+    - will it stop with warm weather
+       
+
+
+- intent: high_risk
+  examples: |
+    - who is at a higher risk of infection
+    - risk to which age
+    - risk for 
+
+
+- intent: corona_state
+  examples: |
+    - [total](state)
+    - [Andhra pradesh](state)
+    - [karnataka](state)
+    - [delhi](state)
+    - [maharastra](state)
+    - [goa](state)
+    - [kerala](state)
+    - [tamil nadu](state)
+    - [Lakshadweep](state)
+    - [State Unassigned](state)
+    - [Mizoram](state)
+    - [Dadra and Nagar Haveli and Daman and Diu](state)
+    - [Sikkim](state)
+    - [Andaman and Nicobar Islands](state)
+    - [Ladakh](state)
+    - [Nagaland](state)
+    - [Meghalaya](state)
+    - [Chandigarh](state)
+    - [Arunachal Pradesh](state)
+    - [Manipur](state)
+    - [Himachal Pradesh](state)
+    - [Tripura](state)
+    - [Puducherry](state)
+    - [Uttarakhand](state)
+    - [Jammu and Kashmir](state)
+    - [Jharkhand](state)
+    - [Punjab](state)
+    - [Madhya Pradesh](state)
+    - [Gujarat](state)
+    - [Haryana](state)
+    - [Chhattisgarh](state)
+    - [Rajasthan](state)
+    - [Assam](state)
+    - [Bihar](state)
+    - [Telangana](state)
+    - [Odisha](state)
+    - [West Bengal](state)
+    - [Uttar Pradesh](state)
+    - [Assam](state)
+    - show me [Assam](state) covid cases
+    - show me [total](state) covid cases of india
+    - [total](state) count
+    - how many covid cases in [total](state) 
+
+
+
+
+    
